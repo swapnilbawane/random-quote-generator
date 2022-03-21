@@ -1,0 +1,48 @@
+:root {
+    color-text: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+body {
+background: url("https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dW5pdmVyc2V8ZW58MHx8MHx8&w=1000&q=80");
+background-size:auto;
+height: 100%;
+overflow: hidden;
+} 
+
+h2 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid blue;
+    border-width:1px;
+    display: inline-block;
+    
+}
+
+.center-header {
+  width: 50%;
+  margin: 0 auto;  
+}
+
+h2::first-letter { 
+    color:wheat;
+    font-size: larger;
+    font-family: 'Quicksand', sans-serif;
+ } 
+
+p {
+    color: white;
+}
+
+img { 
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+/* .input-submit {
+    margin-bottom: 5em;
+} */
